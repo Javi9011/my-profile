@@ -1,15 +1,19 @@
+import './Header.css';
+
 function Header() {
-    return (
-      <header>
-        <h1>Mi Portfolio</h1>
-        <nav>
-          <a href="#about">Sobre mí</a>
-          <a href="#projects">Proyectos</a>
-          <a href="#contact">Contacto</a>
-        </nav>
-      </header>
-    );
-  }
-  
-  export default Header;
-  
+  return (
+    <header className="header">
+      <nav className="navbar">
+        <h1>Nelson Amaya</h1>
+        <ul>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default Header;
